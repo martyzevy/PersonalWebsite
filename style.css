@@ -1,0 +1,316 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Arial", sans-serif;
+}
+.cent{
+    text-align: center;
+    color: darkcyan;
+}
+
+
+.header {
+    background-color: #f0f0f0; /* Light grey background for the header */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow under header */
+}
+
+.title {
+    text-align: center;
+    font-size: xxx-large;
+    color: darkcyan;
+}
+
+.prof{
+    color: darkcyan;
+}
+
+.headshot {
+    max-width: 400px; /* Maximum width, but can be smaller */
+    height: auto; /* Height is automatically adjusted */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkcyan;
+    font-size: xx-large;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: darkcyan; /* Color of the horizontal line */
+    display: block;
+}
+
+.content {
+    margin-top: 20px; /* Add space between content and header */
+    /* Additional styling for your main content */
+}
+
+.image-container {
+    float: left; /* This will allow the text to flow around the image */
+    width: 400px; /* Set this to the width of your image */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+.text-container {
+    overflow: hidden; /* Ensures the text wraps around the float */
+}
+
+/* When the text should start below the image, add a clear */
+.clear {
+    clear: both;
+}
+
+
+.image-container .headshot {
+    max-width: 400px; /* Maximum width of the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.language-logo {
+    max-width: 60px; /* Maximum width of the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 5px; /* Adds space around each logo */
+
+}
+
+.text-container {
+    /* Style your text here */
+    font-size: 16px;
+}
+
+h2{
+    
+}
+
+.coursework{
+    color: darkcyan;
+}
+
+.Options {
+    position: relative; /* Set the list item to relative positioning */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute; /* Position the dropdown content absolutely */
+    left: 0; /* Align it to the left edge of the <li> */
+    top: 100%; /* Position it just below the <li> */
+    background-color: #f9f9f9;
+    min-width: 120px; /* Reduced width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px 12px; /* Reduced padding */
+    z-index: 1;
+    font-size: 0.9em; /* Smaller font size */
+}
+
+/* This is the new part */
+.show {
+    display: block;
+    
+}
+
+
+.dropdown-content p {
+    margin: 10px 0;
+}
+.programming-experience-container {
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns items to the top of the container */
+    gap: 20px; /* Optional: adds space between the logos and text */
+}
+
+.logos-container {
+    /* You can set a specific width or let it be automatic */
+    width: auto; 
+    padding: 10px;
+}
+
+.coursework-container {
+    /* Styles for the coursework text */
+    font-size: 16px;
+}
+
+.hackathons-container {
+    /* Styles for the coursework text */
+    font-size: 16px;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+}
+.tamid-container {
+    max-width: 6000px; /* Maximum width of the image */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.lower-content-container .section-divider {
+    border: none;
+    height: 2px;
+    background-color: darkcyan; /* Consistent with your other hr */
+    margin: 20px 0; /* Adjust spacing around the line */
+}
+
+
+.coursework-container ul {
+    padding-left: 20px; /* Adjusts the indentation of the list */
+    list-style-type: disc; /* Default bullet style, can be changed */
+}
+
+.coursework-container li {
+    margin-bottom: 5px; /* Optional: adds space between list items */
+}
+
+.new-text-section ul {
+    padding-left: 20px; /* Adjusts the indentation of the list */
+    list-style-type: disc; /* Default bullet style, can be changed */
+}
+
+.new-text-section li {
+    margin-bottom: 5px; /* Optional: adds space between list items */
+    font-weight: bold;
+}
+
+.hackathons-container ul {
+    padding-left: 20px; /* Adjusts the indentation of the list */
+    list-style-type: disc; /* Default bullet style, can be changed */
+}
+
+.hackathons-container li {
+    margin-bottom: 5px; /* Optional: adds space between list items */
+    font-weight: bold; /* Makes the text bold */
+}
+.morph-logo{
+    justify-content: center;
+    width: 250px; /* Set a fixed width for all images */
+            height: 250px; /* Set a fixed height for all images */
+}
+
+
+.tamid-logo {
+    max-width: 100px; /* Adjust this value as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.acm-logo{
+    max-width: 50px; /* Adjust this value as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.leadership-text-container {
+    /* Styles for the text */
+    font-size: 16px;
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns items to the top of the container */
+    gap: 20px; /* Optional: adds space between the logos and text */
+    /* Add any additional styling you want for the text here */
+}
+
+.leadership-experience-container {
+    gap: 20px; /* Optional: adds space between the image and text */
+    align-items: center;
+}
+
+.acm-container {
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.acm-text-container {
+    /* Styles for the text */
+    font-size: 16px;
+    margin-right: 20px; /* Adjusts space between text and logo */
+}
+
+.acm-logo-container {
+    flex-shrink: 0; /* Prevents the logo from shrinking */
+    margin-left: 30px; /* Adjusts space to the left of the logo */
+}
+
+.acm-logo {
+    max-width: 70px; /* Adjust this value as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+
+.text-container h2, .text-container h3, .text-container h4 {
+    line-height: 1.2; /* Tighter line spacing */
+    margin-top: 10px; /* Reduced top margin */
+    margin-bottom: 10px; /* Reduced bottom margin */
+    
+}
+
+.lower-content-container {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the start (top) vertically */
+    background-color: #f0f0f0; /* Light grey background, similar to the header */
+   
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+
+
+.hackathons-container, .new-text-section {
+    flex: 1; /* Allows both sections to grow */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.hackathons-container, .new-text-section {
+    margin-top: 0; /* Aligns titles at the top */
+}
+
+.image-background-section {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the start (top) vertically */
+    background-color: whitesmoke;
+        
+        padding: 20px; /* Add some padding for spacing */
+
+}
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.image-background-section {
+    /*background-image: url('morphlogo.webp'); /* Path to your image */
+    
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+    
+    /* Add other styles such as padding, height, etc., as needed */
+    padding: 20px;
+    min-height: 200px; /* Example height, adjust as needed */
+    
+}
+
+.morph-logo {
+    padding: 20px;
+    max-width: 400px; /* Adjust this value as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.morph-logo, .morph-text {
+    flex: 1; /* Allows both sections to grow */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.morph-logo, .morph-text {
+    margin-top: 0; /* Aligns titles at the top */
+}
